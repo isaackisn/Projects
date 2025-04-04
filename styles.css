@@ -1,0 +1,111 @@
+/* External CSS File */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styling for Project Sections */
+section {
+    margin: 20px;
+}
+
+section h2 {
+    color: #2d2d2d;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Project Box Styling */
+.project-box {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+    transform: scale(1.05);  /* Slight hover effect */
+}
+
+.project-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.project-box a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-box a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design: For small screen sizes */
+@media (max-width: 768px) {
+    .project-box {
+        padding: 15px;
+    }
+
+    .project-box h2 {
+        font-size: 20px;
+    }
+
+    .project-box p {
+        font-size: 14px;
+    }
+}
